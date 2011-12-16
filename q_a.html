@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="utf-8">
+   <title>jQuery demo</title>
+ 
+ <style>
+ .censored {
+    color:black;
+    background-color:black;
+ }
+
+ul{
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+li span {
+    padding: 2em;
+    display-style: table-cell;
+}
+
+.left {
+    border: 1px dotted red;
+    width: 300px;
+}
+
+.right {
+    border: 1px dotted grey;
+    width: 300px;
+}
+
+ </style>
+ </head>
+ <body>
+   
+   <a href="http://jquery.com/">jQuery</a>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+   <script>
+     $(document).ready(function(){
+       $("a").click(function(event){
+         alert("As you can see, the link no longer took you to jquery.com");
+         event.preventDefault();
+       });
+      
+       $(".right").addClass("censored");
+
+       $(".censored").click(
+            function() {
+                $(this).toggleClass("censored");
+            }
+        );
+
+
+     });
+
+   </script>
+
+
+<ul class='multiple_columns'>
+<li><span class="left">This is the question.</span>
+    <span class="right">This is the answer.<span>
+</li>
+<li><span class="left"></span>
+    <span class="right"><span>
+</li>
+<li><span class="left"></span>
+    <span class="right"><span>
+</li>
+<li><span class="left"></span>
+    <span class="right"><span>
+</li>
+<li><span class="left"></span>
+    <span class="right"><span>
+</li>
+</ul>
+
+
+
+ </body>
+ </html>
