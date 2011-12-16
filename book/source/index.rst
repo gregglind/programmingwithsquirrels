@@ -25,7 +25,8 @@ Exercises
 ..  toctree::
     :maxdepth: 2
     
-    humancomputer1
+    humancomputer_fizzbuzz
+    humancomputer_fizzbuzz_player
 
 
 ==================

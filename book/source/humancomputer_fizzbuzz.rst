@@ -1,4 +1,4 @@
-..  humancomputer:
+..  _humancomputer:
 
 =====================
 The Human Computer!
@@ -7,7 +7,7 @@ The Human Computer!
 ..  warning::
 
     IF YOU ARE A STUDENT **TURN BACK NOW**.  You will have more fun if you don't
-    know all the solutions up-front!
+    know all the solutions up-front!  (Or go on to :ref:`Player Materials <fizzbuzz-player>`).
 
 
 Audience
@@ -293,8 +293,7 @@ and the like if you look at it too hard.  Dodge all such questions.
 
 
 
-Player Materials
--------------------------
+
 
 
 
