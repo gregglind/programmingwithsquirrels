@@ -28,24 +28,29 @@ Playing Your Part
 
     #.  Take your props and read what you can do:
 
-    	``variables``
-			* say their value, upon request
-			* set/change their value, by order of the controller
-		``processes`` (functions)
-			* get inputs (which are values)
-			* returns outputs
-		``choices``
-			* get asked by controllers "where next"
-			* answers with a branch:  e.g., "follow branch 'yes'"
-			* to get that answer, can do **processing**, including looking up variables,
-			  calling functions, etc.
-		``controller``
-			* set, read, modify variables
-			* ask branch points "where do I go next" and receive answers
-			* call functions and statements
-			* runs from top to bottom
-			* programs begin and end with the controller
-			
+        ``variables``
+            * say their value, upon request
+            * set/change their value, by order of the controller
+        
+        ``processes`` (functions)
+            * get inputs (which are values)
+            * returns outputs
+        
+        ``choices``
+            * get asked by controllers "where next"
+            * answers with a branch:  e.g., "follow branch 'yes'"
+            * to get that answer, can do **processing**, including looking up variables,
+              calling functions, etc.
+        
+        ``controller``
+            * set, read, modify variables
+            * ask branch points "where do I go next" and receive answers
+            * call functions and statements
+            * runs from top to bottom
+            * programs begin and end with the controller
+        
+        **Props**
+        
         * ``variables``:  little whiteboard and marker
         * ``print process``:  big whiteboard and marker
         * ``processes``:  cards to give return values
@@ -88,3 +93,5 @@ After a few rounds of computation, ``turn`` has the value 4.
 **Jes:**  "Okay!"  [Writes ``4 Fizz`` on the board.]
 
 Play continues on through the loop.
+
+
